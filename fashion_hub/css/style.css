@@ -198,7 +198,7 @@ form.nav-search.form-inline.form-control {
 /* megaDropMenu */
 
 h5.head_agileinfo {
-    font-size: 3em;
+    font-size: 5em;
     font-weight: 400;
     color: #000;
     font-family: 'Elsie Swash Caps', cursive;
@@ -1440,6 +1440,11 @@ ul.bottom-links-agile li a {
     border-bottom: none;
     margin: 4em 0 4em 0em;
     text-align: center;
+}
+
+.cfc{
+    text-align: center;
+    font-size: 14px;
 }
 
 /*-- //testimonial --*/

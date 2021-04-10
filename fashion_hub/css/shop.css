@@ -603,7 +603,9 @@ ul.price-list {
 /* card styling */
 
 h5.card-title {
-	font-size: 15.5px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ff6e40;
 }
 
 .card-text p:last-child {
@@ -1025,8 +1027,8 @@ a.link-product-add-cart:hover {
 }
 
 button.hub-cart i {
-	font-size: 1.2em;
-	color: #0076be;
+	font-size: 2em;
+	color: #0a5e92;
 }
 
 ul.footer_list_icons.single_in li {
@@ -1418,6 +1420,21 @@ a.link-product-add-cart.position-absolute {
 }
 .btn-secondary {
 	background-color: #64b3f4 !important;
+}
+/*la;;*/
+ul.ratingfocus li {
+	display: inline;
+}
+
+ul.ratingfocus-single li {
+	display: inline-block;
+}
+.caption {
+	font-size: 0.8em;
+}
+p .cheap{
+	color: #0e64aa;
+	background-color: blue;
 }
 /*-- /Responsive --*/
 
