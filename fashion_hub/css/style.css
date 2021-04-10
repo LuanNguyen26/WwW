@@ -81,7 +81,7 @@ input[type="submit"] {
 }
 
 .right-w3l input[type="submit"] {
-    background: #f0475f;
+    background: #3b5998;
     color: #fff;
 }
 
@@ -100,7 +100,7 @@ input.form-control {
 background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
 Chrome 10-25, Safari 5.1-6
 
-background: linear-gradient(to right, #64b3f4, #c2e59c);
+background: linear-gradient(to right, #64b3f4, #c2e59c);*/
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ }
     */
 
@@ -259,6 +259,10 @@ h5.shop_w3 {
     min-height: 260px;
 }
 
+.agile_btxtaas{
+    color: red;
+}
+
 h3.agile_btxt {
     font-size: 3em;
     text-transform: uppercase;
@@ -271,7 +275,7 @@ h3.agile_btxt {
 h3.agile_btxt span {
     font-size: 3em;
     text-transform: uppercase;
-    color:#3b5998;
+    color:#215bd6;
     font-family: 'Elsie Swash Caps', cursive;
 }
 
@@ -298,7 +302,7 @@ h4.head_agileinfo {
 h2.agile_btxt span {
     font-size: 2em;
     text-transform: uppercase;
-    color: #f0475f;
+    color: white;
     font-family: 'Elsie Swash Caps', cursive;
 }
 
@@ -911,7 +915,7 @@ form.f-color .form-control {
 }
 
 .footer-copy_w3ls {
-    background: #d8e9fa;
+    background: #2A3132;
 }
 
 .w3agile_footer_copy {
@@ -1446,7 +1450,9 @@ ul.bottom-links-agile li a {
     text-align: center;
     font-size: 14px;
 }
-
+.text-secondary{
+    color: blue;
+}
 /*-- //testimonial --*/
 
 /* -- Responsive code -- */
