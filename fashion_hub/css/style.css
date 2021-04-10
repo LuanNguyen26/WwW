@@ -85,10 +85,6 @@ input[type="submit"] {
     color: #fff;
 }
 
-input.form-control {
-    background: #BED0E9;
-}
-
 /*-- //bottom-to-top --*/
 
 /* mega nav */
@@ -164,13 +160,13 @@ header i {
     color: #64b3f4;
 }
 
+
+
 button.btn.top_hub_cart {
-    background: #d8e9fa;
+    background: white
 }
 
-select.form-control.input-lg {
-    cursor: pointer;
-}
+
 
 /*-- cart-css --*/
 
