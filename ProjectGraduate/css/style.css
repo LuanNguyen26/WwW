@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    background: #fff;
+    background:#e3f1ff;
 }
 
 body a,
@@ -52,6 +52,16 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;;
+  }
 /*-- bottom-to-top --*/
 
 #toTop {
@@ -217,8 +227,26 @@ h5.shop_w3 {
 
 /* banner */
 
-.banner {
-    background: url(../images/bann1.jpg) no-repeat;
+.banner1 {
+    background: url(../images/bann1-removebg-preview.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+.banner2 {
+    background: url(../images/bann2-removebg-preview.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+.banner3 {
+    background: url(../images/bann3-removebg-preview.png) no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -228,32 +256,14 @@ h5.shop_w3 {
     position: relative;
 }
 
-.banner2 {
-    background: url(../images/bann2.jpg) no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: cover;
-}
-
-.banner3 {
-    background: url(../images/bann3.jpg) no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: cover;
-}
-
 .ibanner_w3 {
-    background: url(../images/inner_ban.jpg)no-repeat center;
+    background: url(../images/library-la-trobe-study-students-159722.jpeg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
-    min-height: 260px;
+    min-height: 350px;
 }
 
 .agile_btxtaas{
@@ -290,7 +300,7 @@ h2.agile_btxt{
 h4.head_agileinfo {
     font-size: 3em;
     text-transform: uppercase;
-    color: #fff;
+    color: #ffffff;
     word-spacing: 25px;
     line-height: 70px;
     text-align: right;
@@ -478,14 +488,14 @@ h4.bn_right span {
 #slider-pager span {
     width: 100px;
     height: 15px;
-    background: #fff;
+    background: #afd3f8;
     display: inline-block;
     border-radius: 30em;
     opacity: 0.6;
 }
 
 #slider-pager .rslides_here a {
-    background: #FFF;
+    background: #afd3f8;
     border-radius: 30em;
     opacity: 1;
 }
@@ -903,8 +913,9 @@ form.f-color .form-control {
 }
 
 .footer-v2grids.w3-agileits {
-    padding: 6em 2em;
-    background: #eee;
+    margin-top: 20px;
+    padding: 2em 2em;
+    background: #8ec2fa;
 }
 
 .footer-bottomv2 {
@@ -912,7 +923,7 @@ form.f-color .form-control {
 }
 
 .footer-copy_w3ls {
-    background: #2A3132;
+    background: rgb(58, 58, 58);
 }
 
 .w3agile_footer_copy {
@@ -1274,11 +1285,16 @@ ul.bottom-links-agile li {
 }
 
 ul.bottom-links-agile li a {
-    font-size: 14px;
-    color: #0076BE;
+    font-size: 25px;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+ul.bottom-links-agile li :hover{
+    color: black;
+    background-color: wheat;
+}
+
 
 /*-- /footer variant2 --*/
 

@@ -4681,6 +4681,7 @@ tbody.collapse.show {
 }
 
 .breadcrumb {
+  margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4689,7 +4690,7 @@ tbody.collapse.show {
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: #e9ecef;
+  background-color: #4292e1;
   border-radius: 0.25rem;
 }
 
@@ -4697,8 +4698,14 @@ tbody.collapse.show {
   display: inline-block;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  color: #6c757d;
+  color: #f2ff00;
   content: "/";
+  font-size: 20px;
+}
+
+.breadcrumb-item a{
+  font-size: 20px;
+  color: white;
 }
 
 .breadcrumb-item + .breadcrumb-item:hover::before {
@@ -4710,7 +4717,8 @@ tbody.collapse.show {
 }
 
 .breadcrumb-item.active {
-  color: #6c757d;
+  font-size: 20px;
+  color: #01203c;
 }
 
 .pagination {
