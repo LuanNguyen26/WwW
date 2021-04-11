@@ -636,6 +636,7 @@ h4.bn_right span {
     position: relative;
     text-align: center;
     cursor: default;
+    border-radius: 15%;
 }
 
 .hovereffect .overlay {
