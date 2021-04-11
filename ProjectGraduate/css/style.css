@@ -1,3 +1,7 @@
+/* header{
+    background-color: #93bfeb;
+} */
+
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -212,7 +216,20 @@ h5.head_agileinfo {
 }
 
 h5.head_agileinfo span {
-    
+    font-family: 'Elsie Swash Caps', cursive;
+    color: #0076be;
+    font-weight: bold;
+}
+
+h5.head_agileinfo1 {
+    margin-top: 100px;
+    font-size: 5em;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Elsie Swash Caps', cursive;
+}
+
+h5.head_agileinfo1 span {
     font-family: 'Elsie Swash Caps', cursive;
     color: #0076be;
     font-weight: bold;
@@ -268,6 +285,7 @@ h5.shop_w3 {
 
 .agile_btxtaas{
     color: red;
+    font-weight: bold;
 }
 
 h3.agile_btxt {
@@ -611,7 +629,8 @@ h4.bn_right span {
 /* about */
 
 .hovereffect {
-    width: 100%;
+    margin-left: 50px;
+    width: 80%;
     height: auto;
     float: left;
     overflow: hidden;
@@ -638,6 +657,7 @@ h4.bn_right span {
     position: relative;
     -webkit-transition: all .4s linear;
     transition: all .4s linear;
+    font-size: small;
 }
 
 .hovereffect h5 {
@@ -894,7 +914,7 @@ form.f-color .form-control {
     background: transparent;
 }
 
-.text-capitalize{
+.text-capitalize1{
     font-weight: bold;
     font-size: 2em;
     color: rgb(18, 68, 114);
