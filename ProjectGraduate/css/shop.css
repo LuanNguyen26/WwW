@@ -18,6 +18,20 @@ button.hub-cart {
 	cursor: pointer;
 }
 
+button.hub-cart1 {
+	font-size: 1em;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	padding: 10px 25px;
+	font-weight: 600;
+	text-transform: uppercase !important;
+	color: rgb(0, 0, 0);
+	background: #5badff;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
 div#my-cart-modal .modal-dialog {
 	width: 50%;
 	margin: 100px auto 0;
@@ -1029,6 +1043,11 @@ a.link-product-add-cart:hover {
 button.hub-cart i {
 	font-size: 1.5em;
 	color: #0a5e92;
+}
+
+button.hub-cart1 i {
+	font-size: 1.5em;
+	color: #000000;
 }
 
 ul.footer_list_icons.single_in li {
