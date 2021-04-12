@@ -1027,7 +1027,7 @@ a.link-product-add-cart:hover {
 }
 
 button.hub-cart i {
-	font-size: 2em;
+	font-size: 1.5em;
 	color: #0a5e92;
 }
 
@@ -1435,6 +1435,9 @@ ul.ratingfocus-single li {
 p .cheap{
 	color: #0e64aa;
 	background-color: blue;
+}
+.cachgrp{
+	padding: 20px;
 }
 /*-- /Responsive --*/
 
