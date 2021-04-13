@@ -69,18 +69,16 @@ input[type="submit"] {
 /*-- bottom-to-top --*/
 
 #toTop {
-    display: none;
-    text-decoration: none;
     position: fixed;
     bottom: 24px;
     right: 3%;
     overflow: hidden;
     z-index: 999;
-    width: 32px;
-    height: 32px;
+    width: 50px;
+    height: 50px;
     border: none;
     text-indent: 100%;
-    background: url(../images/move-top.png) no-repeat 0px 0px;
+    background: url(../images/scrolltotopem.png) no-repeat 0px 0px;
 }
 
 .btn-top {
