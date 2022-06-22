@@ -1835,8 +1835,16 @@
 				}
 			});
 			$("#amount").val("$" + $("#slider-range").slider("values", 0) + " - $" + $("#slider-range").slider("values", 1));
-
+			
+			const button = document.querySelector(".btn")
+			button.onclick = () => {
+				console.log("Hello");
+			};
+			button.onclick = () => {
+				console.log("How are you?");
+			};
 		}); //]]>
+
 	</script>
 	<!-- //price range (top products) -->
 	<script src="js/bootstrap.js"></script>
